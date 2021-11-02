@@ -1,0 +1,36 @@
+{
+	"name": "node-alerts",
+	"version": "1.0.0",
+	"description": "  Cross platform CLI alerts with colors. Works on macOS, Linux, and Windows. Alerts: success, error, warning, info, question, and log.",
+	"bin": {
+		"afif": "./index.js"
+	},
+	"type": "commonjs",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-welcome": "^2.2.2"
+	},
+	"keywords": [
+		"node-alerts",
+		"alerts",
+		"afif"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "afif1400/afif",
+	"author": {
+		"name": "Mohammed Afif Ahmed",
+		"email": "afifahmed456123@gmail.com",
+		"url": "https://afifahmed.me"
+	},
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"prettier": "^2.4.1"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prettier": "prettier --write \"./**/*.{js,json}\""
+	}
+}
