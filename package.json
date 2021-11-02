@@ -17,7 +17,7 @@
 	],
 	"license": "MIT",
 	"main": "index.js",
-	"repository": "afif1400/afif",
+	"repository": "afif1400/node-alerts",
 	"author": {
 		"name": "Mohammed Afif Ahmed",
 		"email": "afifahmed456123@gmail.com",
