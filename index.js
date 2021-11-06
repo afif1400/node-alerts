@@ -10,6 +10,9 @@
 
 const chalk = require('chalk');
 const sym = require('./logSymbols');
+const unhandle = require('cli-handle-unhandled')
+
+// some declarations
 const greenC = chalk.green;
 const redC = chalk.red;
 const yellowC = chalk.yellow;
@@ -17,7 +20,10 @@ const blueC = chalk.blue;
 const cyanC = chalk.cyan;
 const magentaC = chalk.magenta;
 
+// unhadled exceptions
+unhandle()
 
+// actual module
 module.exports = options => {
   const defaultOptions = {
     type: 'error',
