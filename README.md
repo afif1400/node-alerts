@@ -17,6 +17,7 @@ Work on macOS, Linux, and Windows.
 <br> -->
 
 # node-alerts
+Built as a part of a course - node-cli
 
 [![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
 
